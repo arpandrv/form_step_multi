@@ -1,0 +1,53 @@
+# Ignore Python virtual environments
+backend/venv/
+
+# Ignore Node.js dependencies
+frontend/node_modules/
+
+# Ignore build outputs and compiled files
+dist/
+build/
+
+# Ignore environment files (sensitive data like API keys or secrets)
+.env
+*.env
+
+# Ignore OS-specific files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Ignore editor-specific files
+.vscode/
+.idea/  # JetBrains IDEs (e.g., PyCharm)
+*.swp  # Vim swap files
+
+# Ignore log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore cache files
+__pycache__/
+*.pyc
+.cache/
+node_modules/.cache/
+
+# Ignore coverage reports (if you use testing tools)
+coverage/
+*.cover
+*.coverage
+coverage-final.json
+
+# Ignore public key/private key files (if any)
+*.pem
+*.crt
+*.key
+
+# Ignore specific FastAPI files
+*.db
+*.sqlite3
