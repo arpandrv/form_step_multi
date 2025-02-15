@@ -22,13 +22,24 @@ a:hover {
   color: #535bf2;
 }
 
-body {
+/* body {
   margin: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+} */
+
+body {
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; /* Center Horizontally */
+  align-items: center; /* Center Vertically */
+  background-color: #f3f4f6; /* Light Gray Background */
 }
+
 
 h1 {
   font-size: 3.2em;

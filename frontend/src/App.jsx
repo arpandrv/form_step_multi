@@ -1,7 +1,12 @@
-export default function App() {
+import React from 'react';
+import MultiStepForm from './components/MultiStepForm';
+
+function App() {
   return (
-    <div className="bg-blue-500 text-white p-5 text-center">
-      Tailwind is working! 🎉
+    <div>
+      <MultiStepForm />
     </div>
   );
 }
+
+export default App;
